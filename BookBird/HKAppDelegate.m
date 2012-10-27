@@ -8,9 +8,7 @@
 
 #import "HKAppDelegate.h"
 
-#import "HKFirstViewController.h"
-
-#import "HKSecondViewController.h"
+#import "LibraryViewController.h"
 
 @implementation HKAppDelegate
 
@@ -18,11 +16,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-  UIViewController *viewController1 = [[HKFirstViewController alloc] initWithNibName:@"HKFirstViewController" bundle:nil];
-  UIViewController *viewController2 = [[HKSecondViewController alloc] initWithNibName:@"HKSecondViewController" bundle:nil];
-  self.navController = [[UINavigationController alloc] init];
-  self.navController.viewControllers = @[viewController1, viewController2];
-  self.window.rootViewController = self.navController;
+    self.viewController = [[LibraryViewController alloc] initWithNibName:@"LibraryViewController" bundle:nil];
+    self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -54,18 +49,5 @@
   // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-/*
-// Optional UITabBarControllerDelegate method.
-- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
-{
-}
-*/
-
-/*
-// Optional UITabBarControllerDelegate method.
-- (void)tabBarController:(UITabBarController *)tabBarController didEndCustomizingViewControllers:(NSArray *)viewControllers changed:(BOOL)changed
-{
-}
-*/
 
 @end

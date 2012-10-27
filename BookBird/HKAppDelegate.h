@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LibraryViewController.h"
 
-@interface HKAppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
+@interface HKAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) UINavigationController *navController;
+@property (strong, nonatomic) LibraryViewController *viewController;
 
 @end

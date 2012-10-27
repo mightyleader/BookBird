@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C17F79E8163C4F3F0091942D /* LibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17F79E6163C4F3F0091942D /* LibraryViewController.m */; };
+		C17F79E9163C4F3F0091942D /* LibraryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17F79E7163C4F3F0091942D /* LibraryViewController.xib */; };
 		D49CA585163BF595000EEF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CA584163BF595000EEF12 /* UIKit.framework */; };
 		D49CA587163BF595000EEF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CA586163BF595000EEF12 /* Foundation.framework */; };
 		D49CA589163BF595000EEF12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CA588163BF595000EEF12 /* CoreGraphics.framework */; };
@@ -16,17 +18,12 @@
 		D49CA597163BF595000EEF12 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D49CA596163BF595000EEF12 /* Default.png */; };
 		D49CA599163BF595000EEF12 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D49CA598163BF595000EEF12 /* Default@2x.png */; };
 		D49CA59B163BF595000EEF12 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D49CA59A163BF595000EEF12 /* Default-568h@2x.png */; };
-		D49CA59E163BF595000EEF12 /* HKFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D49CA59D163BF595000EEF12 /* HKFirstViewController.m */; };
-		D49CA5A0163BF595000EEF12 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = D49CA59F163BF595000EEF12 /* first.png */; };
-		D49CA5A2163BF595000EEF12 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D49CA5A1163BF595000EEF12 /* first@2x.png */; };
-		D49CA5A5163BF595000EEF12 /* HKSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D49CA5A4163BF595000EEF12 /* HKSecondViewController.m */; };
-		D49CA5A7163BF595000EEF12 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = D49CA5A6163BF595000EEF12 /* second.png */; };
-		D49CA5A9163BF595000EEF12 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D49CA5A8163BF595000EEF12 /* second@2x.png */; };
-		D49CA5AC163BF595000EEF12 /* HKFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D49CA5AA163BF595000EEF12 /* HKFirstViewController.xib */; };
-		D49CA5AF163BF596000EEF12 /* HKSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D49CA5AD163BF596000EEF12 /* HKSecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C17F79E5163C4F3F0091942D /* LibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryViewController.h; sourceTree = "<group>"; };
+		C17F79E6163C4F3F0091942D /* LibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryViewController.m; sourceTree = "<group>"; };
+		C17F79E7163C4F3F0091942D /* LibraryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LibraryViewController.xib; sourceTree = "<group>"; };
 		D49CA580163BF595000EEF12 /* BookBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49CA584163BF595000EEF12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D49CA586163BF595000EEF12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,16 +37,6 @@
 		D49CA596163BF595000EEF12 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D49CA598163BF595000EEF12 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D49CA59A163BF595000EEF12 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		D49CA59C163BF595000EEF12 /* HKFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKFirstViewController.h; sourceTree = "<group>"; };
-		D49CA59D163BF595000EEF12 /* HKFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKFirstViewController.m; sourceTree = "<group>"; };
-		D49CA59F163BF595000EEF12 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		D49CA5A1163BF595000EEF12 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		D49CA5A3163BF595000EEF12 /* HKSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKSecondViewController.h; sourceTree = "<group>"; };
-		D49CA5A4163BF595000EEF12 /* HKSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKSecondViewController.m; sourceTree = "<group>"; };
-		D49CA5A6163BF595000EEF12 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		D49CA5A8163BF595000EEF12 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		D49CA5AB163BF595000EEF12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HKFirstViewController.xib; sourceTree = "<group>"; };
-		D49CA5AE163BF596000EEF12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HKSecondViewController.xib; sourceTree = "<group>"; };
 		D49CA5B5163C0B85000EEF12 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,16 +87,9 @@
 				D49CA5B5163C0B85000EEF12 /* Constants.h */,
 				D49CA593163BF595000EEF12 /* HKAppDelegate.h */,
 				D49CA594163BF595000EEF12 /* HKAppDelegate.m */,
-				D49CA59C163BF595000EEF12 /* HKFirstViewController.h */,
-				D49CA59D163BF595000EEF12 /* HKFirstViewController.m */,
-				D49CA5AA163BF595000EEF12 /* HKFirstViewController.xib */,
-				D49CA59F163BF595000EEF12 /* first.png */,
-				D49CA5A1163BF595000EEF12 /* first@2x.png */,
-				D49CA5A3163BF595000EEF12 /* HKSecondViewController.h */,
-				D49CA5A4163BF595000EEF12 /* HKSecondViewController.m */,
-				D49CA5AD163BF596000EEF12 /* HKSecondViewController.xib */,
-				D49CA5A6163BF595000EEF12 /* second.png */,
-				D49CA5A8163BF595000EEF12 /* second@2x.png */,
+				C17F79E5163C4F3F0091942D /* LibraryViewController.h */,
+				C17F79E6163C4F3F0091942D /* LibraryViewController.m */,
+				C17F79E7163C4F3F0091942D /* LibraryViewController.xib */,
 				D49CA58B163BF595000EEF12 /* Supporting Files */,
 			);
 			path = BookBird;
@@ -185,12 +165,7 @@
 				D49CA597163BF595000EEF12 /* Default.png in Resources */,
 				D49CA599163BF595000EEF12 /* Default@2x.png in Resources */,
 				D49CA59B163BF595000EEF12 /* Default-568h@2x.png in Resources */,
-				D49CA5A0163BF595000EEF12 /* first.png in Resources */,
-				D49CA5A2163BF595000EEF12 /* first@2x.png in Resources */,
-				D49CA5A7163BF595000EEF12 /* second.png in Resources */,
-				D49CA5A9163BF595000EEF12 /* second@2x.png in Resources */,
-				D49CA5AC163BF595000EEF12 /* HKFirstViewController.xib in Resources */,
-				D49CA5AF163BF596000EEF12 /* HKSecondViewController.xib in Resources */,
+				C17F79E9163C4F3F0091942D /* LibraryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,8 +178,7 @@
 			files = (
 				D49CA591163BF595000EEF12 /* main.m in Sources */,
 				D49CA595163BF595000EEF12 /* HKAppDelegate.m in Sources */,
-				D49CA59E163BF595000EEF12 /* HKFirstViewController.m in Sources */,
-				D49CA5A5163BF595000EEF12 /* HKSecondViewController.m in Sources */,
+				C17F79E8163C4F3F0091942D /* LibraryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,22 +191,6 @@
 				D49CA58E163BF595000EEF12 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D49CA5AA163BF595000EEF12 /* HKFirstViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D49CA5AB163BF595000EEF12 /* en */,
-			);
-			name = HKFirstViewController.xib;
-			sourceTree = "<group>";
-		};
-		D49CA5AD163BF596000EEF12 /* HKSecondViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D49CA5AE163BF596000EEF12 /* en */,
-			);
-			name = HKSecondViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -331,6 +289,7 @@
 				D49CA5B4163BF596000EEF12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
