@@ -14,6 +14,8 @@
 
 @implementation HKSecondViewController
 
+@synthesize chapterID, people, places, feelings, events, webView, theTableView, navBar;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -35,5 +37,28 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+# pragma mark TABLE VIEW DELEGATE & DATA SOURCE METHODS
+-(int) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+  return 1; //TODO: Replace with data from the arrays
+}
+
+- (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {
+  return 4;
+}
+
+- (UITableViewCell*) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+  
+}
+
+- (NSString*) tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section {
+  return @"";
+}
+
+- (NSString*) tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+  
+}
+
+
 
 @end
