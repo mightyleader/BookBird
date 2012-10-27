@@ -20,7 +20,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-    self.title = NSLocalizedString(@"Second", @"Second");
+    self.title = @"Text";
     self.tabBarItem.image = [UIImage imageNamed:@"second"];
     }
     return self;
@@ -56,7 +56,7 @@
 }
 
 - (NSString*) tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-  
+  return @"Section";
 }
 
 

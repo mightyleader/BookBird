@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HKFirstViewController : UIViewController
+@interface HKFirstViewController : UIViewController //<UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
+
+@property (nonatomic, retain) NSMutableArray *books;
+@property (nonatomic, retain) NSData *requestData;
+@property (nonatomic, strong) NSError *error;
+@property (weak, nonatomic) IBOutlet UICollectionView *theCollectionView;
+@property (weak, nonatomic) IBOutlet UIToolbar *navBar;
+
+- (void)fetchBooksWithAPIKey:(NSString*)apiKey;
 
 @end
