@@ -40,13 +40,26 @@
 
 //UICollectionView
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    //return [_books count];
     return 100;
 }
 
 // The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
-    cell.frame = CGRectMake(0, 0, 100, 200);
+    UIImageView *bookCoverImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"2011-03-08 15.28.39.jpg"]];
+    [cell.contentView addSubview:bookCoverImageView];
+    
+    NSDictionary *bookDataDict = [_books objectAtIndex:indexPath.row];
+    NSString *bookTitle = @"title";//[bookDataDict objectForKey:@"title"];
+    UILabel *bookTitleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, cell.contentView.bounds.size.height-40, cell.contentView.bounds.size.width, 40)];
+    bookTitleLabel.text = bookTitle;
+    bookTitleLabel.textColor = [UIColor whiteColor];
+    bookTitleLabel.font = [UIFont boldSystemFontOfSize:18];
+    bookTitleLabel.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.6];
+    bookTitleLabel.textAlignment = NSTextAlignmentCenter;
+    [cell.contentView addSubview:bookTitleLabel];
+    
     cell.backgroundColor = [UIColor blackColor];
     return cell;
 }

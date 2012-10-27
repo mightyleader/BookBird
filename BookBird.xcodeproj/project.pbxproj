@@ -15,6 +15,7 @@
 		C17F79F7163C56DD0091942D /* ReadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17F79F5163C56DD0091942D /* ReadingViewController.xib */; };
 		C17F79FB163C56F70091942D /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17F79F9163C56F70091942D /* SummaryViewController.m */; };
 		C17F79FC163C56F70091942D /* SummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17F79FA163C56F70091942D /* SummaryViewController.xib */; };
+		C17F7A01163C62790091942D /* 2011-03-08 15.28.39.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F7A00163C62790091942D /* 2011-03-08 15.28.39.jpg */; };
 		D49CA585163BF595000EEF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CA584163BF595000EEF12 /* UIKit.framework */; };
 		D49CA587163BF595000EEF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CA586163BF595000EEF12 /* Foundation.framework */; };
 		D49CA589163BF595000EEF12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CA588163BF595000EEF12 /* CoreGraphics.framework */; };
@@ -39,6 +40,7 @@
 		C17F79F8163C56F60091942D /* SummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryViewController.h; sourceTree = "<group>"; };
 		C17F79F9163C56F70091942D /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
 		C17F79FA163C56F70091942D /* SummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SummaryViewController.xib; sourceTree = "<group>"; };
+		C17F7A00163C62790091942D /* 2011-03-08 15.28.39.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2011-03-08 15.28.39.jpg"; sourceTree = "<group>"; };
 		D49CA580163BF595000EEF12 /* BookBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49CA584163BF595000EEF12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D49CA586163BF595000EEF12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -99,6 +101,7 @@
 		D49CA58A163BF595000EEF12 /* BookBird */ = {
 			isa = PBXGroup;
 			children = (
+				C17F7A00163C62790091942D /* 2011-03-08 15.28.39.jpg */,
 				D49CA5B5163C0B85000EEF12 /* Constants.h */,
 				D49CA593163BF595000EEF12 /* HKAppDelegate.h */,
 				D49CA594163BF595000EEF12 /* HKAppDelegate.m */,
@@ -193,6 +196,7 @@
 				C17F79F2163C566B0091942D /* BookTOCViewController.xib in Resources */,
 				C17F79F7163C56DD0091942D /* ReadingViewController.xib in Resources */,
 				C17F79FC163C56F70091942D /* SummaryViewController.xib in Resources */,
+				C17F7A01163C62790091942D /* 2011-03-08 15.28.39.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
