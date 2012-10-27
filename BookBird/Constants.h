@@ -7,6 +7,7 @@
 //
 
 #define kSandboxAPIKey  @"e033f7e12cc4b18255d09bef5196fd4b"
+#define kFinalAPIKey    @"ba33ebdd476eb810c852cf84837d5f66"
 
 #define kBooksList      @"https://api.pearson.com/penguin/classics/v1/books"
 #define kChapterSearch  @"https://api.pearson.com/penguin/classics/v1/articles/"
