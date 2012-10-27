@@ -16,6 +16,68 @@
 		C17F79FB163C56F70091942D /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17F79F9163C56F70091942D /* SummaryViewController.m */; };
 		C17F79FC163C56F70091942D /* SummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17F79FA163C56F70091942D /* SummaryViewController.xib */; };
 		C17F7A01163C62790091942D /* 2011-03-08 15.28.39.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F7A00163C62790091942D /* 2011-03-08 15.28.39.jpg */; };
+		D466EBF5163C860500BF7FDA /* 156565942time-machine.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBB7163C860500BF7FDA /* 156565942time-machine.png */; };
+		D466EBF6163C860500BF7FDA /* 626823951humphry-clinker.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBB8163C860500BF7FDA /* 626823951humphry-clinker.png */; };
+		D466EBF7163C860500BF7FDA /* 902722694where-angels-fear-to-tread.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBB9163C860500BF7FDA /* 902722694where-angels-fear-to-tread.png */; };
+		D466EBF8163C860500BF7FDA /* 9780141973746.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBBA163C860500BF7FDA /* 9780141973746.png */; };
+		D466EBF9163C860500BF7FDA /* 9780141973753.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBBB163C860500BF7FDA /* 9780141973753.png */; };
+		D466EBFA163C860500BF7FDA /* 9780141973760.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBBC163C860500BF7FDA /* 9780141973760.png */; };
+		D466EBFB163C860500BF7FDA /* 9780141973777.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBBD163C860500BF7FDA /* 9780141973777.png */; };
+		D466EBFC163C860500BF7FDA /* 9780141973784.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBBE163C860500BF7FDA /* 9780141973784.png */; };
+		D466EBFD163C860500BF7FDA /* 9780141973791.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBBF163C860500BF7FDA /* 9780141973791.png */; };
+		D466EBFE163C860500BF7FDA /* 9780141973807.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBC0163C860500BF7FDA /* 9780141973807.png */; };
+		D466EBFF163C860500BF7FDA /* 9780141973838.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBC1163C860500BF7FDA /* 9780141973838.png */; };
+		D466EC00163C860500BF7FDA /* 9780141973845.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBC2163C860500BF7FDA /* 9780141973845.png */; };
+		D466EC01163C860500BF7FDA /* 9780141973852.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBC3163C860500BF7FDA /* 9780141973852.png */; };
+		D466EC02163C860500BF7FDA /* 9780141973869.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBC4163C860500BF7FDA /* 9780141973869.png */; };
+		D466EC03163C860500BF7FDA /* 9780141973876.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBC5163C860500BF7FDA /* 9780141973876.png */; };
+		D466EC04163C860500BF7FDA /* 9780141973883.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBC6163C860500BF7FDA /* 9780141973883.png */; };
+		D466EC05163C860500BF7FDA /* 9780141973890.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBC7163C860500BF7FDA /* 9780141973890.png */; };
+		D466EC06163C860500BF7FDA /* 9780141974187.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBC8163C860500BF7FDA /* 9780141974187.png */; };
+		D466EC07163C860500BF7FDA /* 9780141974194.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBC9163C860500BF7FDA /* 9780141974194.png */; };
+		D466EC08163C860500BF7FDA /* 9780141974217.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBCA163C860500BF7FDA /* 9780141974217.png */; };
+		D466EC09163C860500BF7FDA /* 9780141974286.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBCB163C860500BF7FDA /* 9780141974286.png */; };
+		D466EC0A163C860500BF7FDA /* 9780141974323.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBCC163C860500BF7FDA /* 9780141974323.png */; };
+		D466EC0B163C860500BF7FDA /* 9780141974330.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBCD163C860500BF7FDA /* 9780141974330.png */; };
+		D466EC0C163C860500BF7FDA /* 9780141974354.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBCE163C860500BF7FDA /* 9780141974354.png */; };
+		D466EC0D163C860500BF7FDA /* 9780141974378.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBCF163C860500BF7FDA /* 9780141974378.png */; };
+		D466EC0E163C860500BF7FDA /* 9780141974385.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBD0163C860500BF7FDA /* 9780141974385.png */; };
+		D466EC0F163C860500BF7FDA /* 9780141974408.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBD1163C860500BF7FDA /* 9780141974408.png */; };
+		D466EC10163C860500BF7FDA /* 9780141974422.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBD2163C860500BF7FDA /* 9780141974422.png */; };
+		D466EC11163C860500BF7FDA /* 9780141974439.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBD3163C860500BF7FDA /* 9780141974439.png */; };
+		D466EC12163C860500BF7FDA /* 9780141974446.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBD4163C860500BF7FDA /* 9780141974446.png */; };
+		D466EC13163C860500BF7FDA /* 9780141974460.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBD5163C860500BF7FDA /* 9780141974460.png */; };
+		D466EC14163C860500BF7FDA /* 9780141974484.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBD6163C860500BF7FDA /* 9780141974484.png */; };
+		D466EC15163C860500BF7FDA /* 9780141974491.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBD7163C860500BF7FDA /* 9780141974491.png */; };
+		D466EC16163C860500BF7FDA /* 9780141974507.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBD8163C860500BF7FDA /* 9780141974507.png */; };
+		D466EC17163C860500BF7FDA /* 9780141974514.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBD9163C860500BF7FDA /* 9780141974514.png */; };
+		D466EC18163C860500BF7FDA /* 9780141974521.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBDA163C860500BF7FDA /* 9780141974521.png */; };
+		D466EC19163C860500BF7FDA /* 9780141974538.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBDB163C860500BF7FDA /* 9780141974538.png */; };
+		D466EC1A163C860500BF7FDA /* 9780141974545.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBDC163C860500BF7FDA /* 9780141974545.png */; };
+		D466EC1B163C860500BF7FDA /* 9780141974552.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBDD163C860500BF7FDA /* 9780141974552.png */; };
+		D466EC1C163C860500BF7FDA /* 9780141974569.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBDE163C860500BF7FDA /* 9780141974569.png */; };
+		D466EC1D163C860500BF7FDA /* 9780141974576.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBDF163C860500BF7FDA /* 9780141974576.png */; };
+		D466EC1E163C860500BF7FDA /* 9780141974583.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBE0163C860500BF7FDA /* 9780141974583.png */; };
+		D466EC1F163C860500BF7FDA /* 9780141974590.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBE1163C860500BF7FDA /* 9780141974590.png */; };
+		D466EC20163C860500BF7FDA /* 9780141974606.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBE2163C860500BF7FDA /* 9780141974606.png */; };
+		D466EC21163C860500BF7FDA /* 9780141974613.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBE3163C860500BF7FDA /* 9780141974613.png */; };
+		D466EC22163C860500BF7FDA /* 9780141974620.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBE4163C860500BF7FDA /* 9780141974620.png */; };
+		D466EC23163C860500BF7FDA /* 9780141974651.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBE5163C860500BF7FDA /* 9780141974651.png */; };
+		D466EC24163C860500BF7FDA /* 9780141974668.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBE6163C860500BF7FDA /* 9780141974668.png */; };
+		D466EC25163C860500BF7FDA /* 9780141974699.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBE7163C860500BF7FDA /* 9780141974699.png */; };
+		D466EC26163C860500BF7FDA /* 9780141974705.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBE8163C860500BF7FDA /* 9780141974705.png */; };
+		D466EC27163C860500BF7FDA /* 9780141974712.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBE9163C860500BF7FDA /* 9780141974712.png */; };
+		D466EC28163C860500BF7FDA /* alice in wonderland cover image.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBEA163C860500BF7FDA /* alice in wonderland cover image.png */; };
+		D466EC29163C860500BF7FDA /* barnaby rudge cover image.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBEB163C860500BF7FDA /* barnaby rudge cover image.png */; };
+		D466EC2A163C860500BF7FDA /* howards-end.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBEC163C860500BF7FDA /* howards-end.png */; };
+		D466EC2B163C860500BF7FDA /* lady-audleys-secret.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBED163C860500BF7FDA /* lady-audleys-secret.png */; };
+		D466EC2C163C860500BF7FDA /* mary barton cover image.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBEE163C860500BF7FDA /* mary barton cover image.png */; };
+		D466EC2D163C860500BF7FDA /* persuasion.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBEF163C860500BF7FDA /* persuasion.png */; };
+		D466EC2E163C860500BF7FDA /* The old curiosity shop cover image.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBF0163C860500BF7FDA /* The old curiosity shop cover image.png */; };
+		D466EC2F163C860500BF7FDA /* the-confidence-man.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBF1163C860500BF7FDA /* the-confidence-man.png */; };
+		D466EC30163C860500BF7FDA /* tom jones cover image.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBF2163C860500BF7FDA /* tom jones cover image.png */; };
+		D466EC31163C860500BF7FDA /* two-on-a-tower.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBF3163C860500BF7FDA /* two-on-a-tower.png */; };
+		D466EC32163C860500BF7FDA /* war-of-the-worlds.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBF4163C860500BF7FDA /* war-of-the-worlds.png */; };
 		D49CA585163BF595000EEF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CA584163BF595000EEF12 /* UIKit.framework */; };
 		D49CA587163BF595000EEF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CA586163BF595000EEF12 /* Foundation.framework */; };
 		D49CA589163BF595000EEF12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CA588163BF595000EEF12 /* CoreGraphics.framework */; };
@@ -41,6 +103,68 @@
 		C17F79F9163C56F70091942D /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
 		C17F79FA163C56F70091942D /* SummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SummaryViewController.xib; sourceTree = "<group>"; };
 		C17F7A00163C62790091942D /* 2011-03-08 15.28.39.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2011-03-08 15.28.39.jpg"; sourceTree = "<group>"; };
+		D466EBB7163C860500BF7FDA /* 156565942time-machine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "156565942time-machine.png"; sourceTree = "<group>"; };
+		D466EBB8163C860500BF7FDA /* 626823951humphry-clinker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "626823951humphry-clinker.png"; sourceTree = "<group>"; };
+		D466EBB9163C860500BF7FDA /* 902722694where-angels-fear-to-tread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "902722694where-angels-fear-to-tread.png"; sourceTree = "<group>"; };
+		D466EBBA163C860500BF7FDA /* 9780141973746.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141973746.png; sourceTree = "<group>"; };
+		D466EBBB163C860500BF7FDA /* 9780141973753.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141973753.png; sourceTree = "<group>"; };
+		D466EBBC163C860500BF7FDA /* 9780141973760.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141973760.png; sourceTree = "<group>"; };
+		D466EBBD163C860500BF7FDA /* 9780141973777.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141973777.png; sourceTree = "<group>"; };
+		D466EBBE163C860500BF7FDA /* 9780141973784.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141973784.png; sourceTree = "<group>"; };
+		D466EBBF163C860500BF7FDA /* 9780141973791.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141973791.png; sourceTree = "<group>"; };
+		D466EBC0163C860500BF7FDA /* 9780141973807.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141973807.png; sourceTree = "<group>"; };
+		D466EBC1163C860500BF7FDA /* 9780141973838.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141973838.png; sourceTree = "<group>"; };
+		D466EBC2163C860500BF7FDA /* 9780141973845.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141973845.png; sourceTree = "<group>"; };
+		D466EBC3163C860500BF7FDA /* 9780141973852.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141973852.png; sourceTree = "<group>"; };
+		D466EBC4163C860500BF7FDA /* 9780141973869.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141973869.png; sourceTree = "<group>"; };
+		D466EBC5163C860500BF7FDA /* 9780141973876.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141973876.png; sourceTree = "<group>"; };
+		D466EBC6163C860500BF7FDA /* 9780141973883.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141973883.png; sourceTree = "<group>"; };
+		D466EBC7163C860500BF7FDA /* 9780141973890.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141973890.png; sourceTree = "<group>"; };
+		D466EBC8163C860500BF7FDA /* 9780141974187.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974187.png; sourceTree = "<group>"; };
+		D466EBC9163C860500BF7FDA /* 9780141974194.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974194.png; sourceTree = "<group>"; };
+		D466EBCA163C860500BF7FDA /* 9780141974217.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974217.png; sourceTree = "<group>"; };
+		D466EBCB163C860500BF7FDA /* 9780141974286.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974286.png; sourceTree = "<group>"; };
+		D466EBCC163C860500BF7FDA /* 9780141974323.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974323.png; sourceTree = "<group>"; };
+		D466EBCD163C860500BF7FDA /* 9780141974330.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974330.png; sourceTree = "<group>"; };
+		D466EBCE163C860500BF7FDA /* 9780141974354.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974354.png; sourceTree = "<group>"; };
+		D466EBCF163C860500BF7FDA /* 9780141974378.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974378.png; sourceTree = "<group>"; };
+		D466EBD0163C860500BF7FDA /* 9780141974385.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974385.png; sourceTree = "<group>"; };
+		D466EBD1163C860500BF7FDA /* 9780141974408.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974408.png; sourceTree = "<group>"; };
+		D466EBD2163C860500BF7FDA /* 9780141974422.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974422.png; sourceTree = "<group>"; };
+		D466EBD3163C860500BF7FDA /* 9780141974439.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974439.png; sourceTree = "<group>"; };
+		D466EBD4163C860500BF7FDA /* 9780141974446.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974446.png; sourceTree = "<group>"; };
+		D466EBD5163C860500BF7FDA /* 9780141974460.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974460.png; sourceTree = "<group>"; };
+		D466EBD6163C860500BF7FDA /* 9780141974484.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974484.png; sourceTree = "<group>"; };
+		D466EBD7163C860500BF7FDA /* 9780141974491.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974491.png; sourceTree = "<group>"; };
+		D466EBD8163C860500BF7FDA /* 9780141974507.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974507.png; sourceTree = "<group>"; };
+		D466EBD9163C860500BF7FDA /* 9780141974514.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974514.png; sourceTree = "<group>"; };
+		D466EBDA163C860500BF7FDA /* 9780141974521.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974521.png; sourceTree = "<group>"; };
+		D466EBDB163C860500BF7FDA /* 9780141974538.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974538.png; sourceTree = "<group>"; };
+		D466EBDC163C860500BF7FDA /* 9780141974545.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974545.png; sourceTree = "<group>"; };
+		D466EBDD163C860500BF7FDA /* 9780141974552.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974552.png; sourceTree = "<group>"; };
+		D466EBDE163C860500BF7FDA /* 9780141974569.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974569.png; sourceTree = "<group>"; };
+		D466EBDF163C860500BF7FDA /* 9780141974576.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974576.png; sourceTree = "<group>"; };
+		D466EBE0163C860500BF7FDA /* 9780141974583.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974583.png; sourceTree = "<group>"; };
+		D466EBE1163C860500BF7FDA /* 9780141974590.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974590.png; sourceTree = "<group>"; };
+		D466EBE2163C860500BF7FDA /* 9780141974606.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974606.png; sourceTree = "<group>"; };
+		D466EBE3163C860500BF7FDA /* 9780141974613.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974613.png; sourceTree = "<group>"; };
+		D466EBE4163C860500BF7FDA /* 9780141974620.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974620.png; sourceTree = "<group>"; };
+		D466EBE5163C860500BF7FDA /* 9780141974651.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974651.png; sourceTree = "<group>"; };
+		D466EBE6163C860500BF7FDA /* 9780141974668.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974668.png; sourceTree = "<group>"; };
+		D466EBE7163C860500BF7FDA /* 9780141974699.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974699.png; sourceTree = "<group>"; };
+		D466EBE8163C860500BF7FDA /* 9780141974705.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974705.png; sourceTree = "<group>"; };
+		D466EBE9163C860500BF7FDA /* 9780141974712.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9780141974712.png; sourceTree = "<group>"; };
+		D466EBEA163C860500BF7FDA /* alice in wonderland cover image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alice in wonderland cover image.png"; sourceTree = "<group>"; };
+		D466EBEB163C860500BF7FDA /* barnaby rudge cover image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barnaby rudge cover image.png"; sourceTree = "<group>"; };
+		D466EBEC163C860500BF7FDA /* howards-end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "howards-end.png"; sourceTree = "<group>"; };
+		D466EBED163C860500BF7FDA /* lady-audleys-secret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lady-audleys-secret.png"; sourceTree = "<group>"; };
+		D466EBEE163C860500BF7FDA /* mary barton cover image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mary barton cover image.png"; sourceTree = "<group>"; };
+		D466EBEF163C860500BF7FDA /* persuasion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = persuasion.png; sourceTree = "<group>"; };
+		D466EBF0163C860500BF7FDA /* The old curiosity shop cover image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The old curiosity shop cover image.png"; sourceTree = "<group>"; };
+		D466EBF1163C860500BF7FDA /* the-confidence-man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "the-confidence-man.png"; sourceTree = "<group>"; };
+		D466EBF2163C860500BF7FDA /* tom jones cover image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tom jones cover image.png"; sourceTree = "<group>"; };
+		D466EBF3163C860500BF7FDA /* two-on-a-tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "two-on-a-tower.png"; sourceTree = "<group>"; };
+		D466EBF4163C860500BF7FDA /* war-of-the-worlds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "war-of-the-worlds.png"; sourceTree = "<group>"; };
 		D49CA580163BF595000EEF12 /* BookBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49CA584163BF595000EEF12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D49CA586163BF595000EEF12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -71,9 +195,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D466EBB6163C860500BF7FDA /* covers */ = {
+			isa = PBXGroup;
+			children = (
+				D466EBB7163C860500BF7FDA /* 156565942time-machine.png */,
+				D466EBB8163C860500BF7FDA /* 626823951humphry-clinker.png */,
+				D466EBB9163C860500BF7FDA /* 902722694where-angels-fear-to-tread.png */,
+				D466EBBA163C860500BF7FDA /* 9780141973746.png */,
+				D466EBBB163C860500BF7FDA /* 9780141973753.png */,
+				D466EBBC163C860500BF7FDA /* 9780141973760.png */,
+				D466EBBD163C860500BF7FDA /* 9780141973777.png */,
+				D466EBBE163C860500BF7FDA /* 9780141973784.png */,
+				D466EBBF163C860500BF7FDA /* 9780141973791.png */,
+				D466EBC0163C860500BF7FDA /* 9780141973807.png */,
+				D466EBC1163C860500BF7FDA /* 9780141973838.png */,
+				D466EBC2163C860500BF7FDA /* 9780141973845.png */,
+				D466EBC3163C860500BF7FDA /* 9780141973852.png */,
+				D466EBC4163C860500BF7FDA /* 9780141973869.png */,
+				D466EBC5163C860500BF7FDA /* 9780141973876.png */,
+				D466EBC6163C860500BF7FDA /* 9780141973883.png */,
+				D466EBC7163C860500BF7FDA /* 9780141973890.png */,
+				D466EBC8163C860500BF7FDA /* 9780141974187.png */,
+				D466EBC9163C860500BF7FDA /* 9780141974194.png */,
+				D466EBCA163C860500BF7FDA /* 9780141974217.png */,
+				D466EBCB163C860500BF7FDA /* 9780141974286.png */,
+				D466EBCC163C860500BF7FDA /* 9780141974323.png */,
+				D466EBCD163C860500BF7FDA /* 9780141974330.png */,
+				D466EBCE163C860500BF7FDA /* 9780141974354.png */,
+				D466EBCF163C860500BF7FDA /* 9780141974378.png */,
+				D466EBD0163C860500BF7FDA /* 9780141974385.png */,
+				D466EBD1163C860500BF7FDA /* 9780141974408.png */,
+				D466EBD2163C860500BF7FDA /* 9780141974422.png */,
+				D466EBD3163C860500BF7FDA /* 9780141974439.png */,
+				D466EBD4163C860500BF7FDA /* 9780141974446.png */,
+				D466EBD5163C860500BF7FDA /* 9780141974460.png */,
+				D466EBD6163C860500BF7FDA /* 9780141974484.png */,
+				D466EBD7163C860500BF7FDA /* 9780141974491.png */,
+				D466EBD8163C860500BF7FDA /* 9780141974507.png */,
+				D466EBD9163C860500BF7FDA /* 9780141974514.png */,
+				D466EBDA163C860500BF7FDA /* 9780141974521.png */,
+				D466EBDB163C860500BF7FDA /* 9780141974538.png */,
+				D466EBDC163C860500BF7FDA /* 9780141974545.png */,
+				D466EBDD163C860500BF7FDA /* 9780141974552.png */,
+				D466EBDE163C860500BF7FDA /* 9780141974569.png */,
+				D466EBDF163C860500BF7FDA /* 9780141974576.png */,
+				D466EBE0163C860500BF7FDA /* 9780141974583.png */,
+				D466EBE1163C860500BF7FDA /* 9780141974590.png */,
+				D466EBE2163C860500BF7FDA /* 9780141974606.png */,
+				D466EBE3163C860500BF7FDA /* 9780141974613.png */,
+				D466EBE4163C860500BF7FDA /* 9780141974620.png */,
+				D466EBE5163C860500BF7FDA /* 9780141974651.png */,
+				D466EBE6163C860500BF7FDA /* 9780141974668.png */,
+				D466EBE7163C860500BF7FDA /* 9780141974699.png */,
+				D466EBE8163C860500BF7FDA /* 9780141974705.png */,
+				D466EBE9163C860500BF7FDA /* 9780141974712.png */,
+				D466EBEA163C860500BF7FDA /* alice in wonderland cover image.png */,
+				D466EBEB163C860500BF7FDA /* barnaby rudge cover image.png */,
+				D466EBEC163C860500BF7FDA /* howards-end.png */,
+				D466EBED163C860500BF7FDA /* lady-audleys-secret.png */,
+				D466EBEE163C860500BF7FDA /* mary barton cover image.png */,
+				D466EBEF163C860500BF7FDA /* persuasion.png */,
+				D466EBF0163C860500BF7FDA /* The old curiosity shop cover image.png */,
+				D466EBF1163C860500BF7FDA /* the-confidence-man.png */,
+				D466EBF2163C860500BF7FDA /* tom jones cover image.png */,
+				D466EBF3163C860500BF7FDA /* two-on-a-tower.png */,
+				D466EBF4163C860500BF7FDA /* war-of-the-worlds.png */,
+			);
+			path = covers;
+			sourceTree = "<group>";
+		};
 		D49CA575163BF595000EEF12 = {
 			isa = PBXGroup;
 			children = (
+				D466EBB6163C860500BF7FDA /* covers */,
 				D49CA58A163BF595000EEF12 /* BookBird */,
 				D49CA583163BF595000EEF12 /* Frameworks */,
 				D49CA581163BF595000EEF12 /* Products */,
@@ -197,6 +391,68 @@
 				C17F79F7163C56DD0091942D /* ReadingViewController.xib in Resources */,
 				C17F79FC163C56F70091942D /* SummaryViewController.xib in Resources */,
 				C17F7A01163C62790091942D /* 2011-03-08 15.28.39.jpg in Resources */,
+				D466EBF5163C860500BF7FDA /* 156565942time-machine.png in Resources */,
+				D466EBF6163C860500BF7FDA /* 626823951humphry-clinker.png in Resources */,
+				D466EBF7163C860500BF7FDA /* 902722694where-angels-fear-to-tread.png in Resources */,
+				D466EBF8163C860500BF7FDA /* 9780141973746.png in Resources */,
+				D466EBF9163C860500BF7FDA /* 9780141973753.png in Resources */,
+				D466EBFA163C860500BF7FDA /* 9780141973760.png in Resources */,
+				D466EBFB163C860500BF7FDA /* 9780141973777.png in Resources */,
+				D466EBFC163C860500BF7FDA /* 9780141973784.png in Resources */,
+				D466EBFD163C860500BF7FDA /* 9780141973791.png in Resources */,
+				D466EBFE163C860500BF7FDA /* 9780141973807.png in Resources */,
+				D466EBFF163C860500BF7FDA /* 9780141973838.png in Resources */,
+				D466EC00163C860500BF7FDA /* 9780141973845.png in Resources */,
+				D466EC01163C860500BF7FDA /* 9780141973852.png in Resources */,
+				D466EC02163C860500BF7FDA /* 9780141973869.png in Resources */,
+				D466EC03163C860500BF7FDA /* 9780141973876.png in Resources */,
+				D466EC04163C860500BF7FDA /* 9780141973883.png in Resources */,
+				D466EC05163C860500BF7FDA /* 9780141973890.png in Resources */,
+				D466EC06163C860500BF7FDA /* 9780141974187.png in Resources */,
+				D466EC07163C860500BF7FDA /* 9780141974194.png in Resources */,
+				D466EC08163C860500BF7FDA /* 9780141974217.png in Resources */,
+				D466EC09163C860500BF7FDA /* 9780141974286.png in Resources */,
+				D466EC0A163C860500BF7FDA /* 9780141974323.png in Resources */,
+				D466EC0B163C860500BF7FDA /* 9780141974330.png in Resources */,
+				D466EC0C163C860500BF7FDA /* 9780141974354.png in Resources */,
+				D466EC0D163C860500BF7FDA /* 9780141974378.png in Resources */,
+				D466EC0E163C860500BF7FDA /* 9780141974385.png in Resources */,
+				D466EC0F163C860500BF7FDA /* 9780141974408.png in Resources */,
+				D466EC10163C860500BF7FDA /* 9780141974422.png in Resources */,
+				D466EC11163C860500BF7FDA /* 9780141974439.png in Resources */,
+				D466EC12163C860500BF7FDA /* 9780141974446.png in Resources */,
+				D466EC13163C860500BF7FDA /* 9780141974460.png in Resources */,
+				D466EC14163C860500BF7FDA /* 9780141974484.png in Resources */,
+				D466EC15163C860500BF7FDA /* 9780141974491.png in Resources */,
+				D466EC16163C860500BF7FDA /* 9780141974507.png in Resources */,
+				D466EC17163C860500BF7FDA /* 9780141974514.png in Resources */,
+				D466EC18163C860500BF7FDA /* 9780141974521.png in Resources */,
+				D466EC19163C860500BF7FDA /* 9780141974538.png in Resources */,
+				D466EC1A163C860500BF7FDA /* 9780141974545.png in Resources */,
+				D466EC1B163C860500BF7FDA /* 9780141974552.png in Resources */,
+				D466EC1C163C860500BF7FDA /* 9780141974569.png in Resources */,
+				D466EC1D163C860500BF7FDA /* 9780141974576.png in Resources */,
+				D466EC1E163C860500BF7FDA /* 9780141974583.png in Resources */,
+				D466EC1F163C860500BF7FDA /* 9780141974590.png in Resources */,
+				D466EC20163C860500BF7FDA /* 9780141974606.png in Resources */,
+				D466EC21163C860500BF7FDA /* 9780141974613.png in Resources */,
+				D466EC22163C860500BF7FDA /* 9780141974620.png in Resources */,
+				D466EC23163C860500BF7FDA /* 9780141974651.png in Resources */,
+				D466EC24163C860500BF7FDA /* 9780141974668.png in Resources */,
+				D466EC25163C860500BF7FDA /* 9780141974699.png in Resources */,
+				D466EC26163C860500BF7FDA /* 9780141974705.png in Resources */,
+				D466EC27163C860500BF7FDA /* 9780141974712.png in Resources */,
+				D466EC28163C860500BF7FDA /* alice in wonderland cover image.png in Resources */,
+				D466EC29163C860500BF7FDA /* barnaby rudge cover image.png in Resources */,
+				D466EC2A163C860500BF7FDA /* howards-end.png in Resources */,
+				D466EC2B163C860500BF7FDA /* lady-audleys-secret.png in Resources */,
+				D466EC2C163C860500BF7FDA /* mary barton cover image.png in Resources */,
+				D466EC2D163C860500BF7FDA /* persuasion.png in Resources */,
+				D466EC2E163C860500BF7FDA /* The old curiosity shop cover image.png in Resources */,
+				D466EC2F163C860500BF7FDA /* the-confidence-man.png in Resources */,
+				D466EC30163C860500BF7FDA /* tom jones cover image.png in Resources */,
+				D466EC31163C860500BF7FDA /* two-on-a-tower.png in Resources */,
+				D466EC32163C860500BF7FDA /* war-of-the-worlds.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
