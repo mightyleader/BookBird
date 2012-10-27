@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		C17F79E8163C4F3F0091942D /* LibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17F79E6163C4F3F0091942D /* LibraryViewController.m */; };
 		C17F79E9163C4F3F0091942D /* LibraryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17F79E7163C4F3F0091942D /* LibraryViewController.xib */; };
+		C17F79F1163C566B0091942D /* BookTOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17F79EF163C566B0091942D /* BookTOCViewController.m */; };
+		C17F79F2163C566B0091942D /* BookTOCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17F79F0163C566B0091942D /* BookTOCViewController.xib */; };
+		C17F79F6163C56DD0091942D /* ReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17F79F4163C56DD0091942D /* ReadingViewController.m */; };
+		C17F79F7163C56DD0091942D /* ReadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17F79F5163C56DD0091942D /* ReadingViewController.xib */; };
+		C17F79FB163C56F70091942D /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17F79F9163C56F70091942D /* SummaryViewController.m */; };
+		C17F79FC163C56F70091942D /* SummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17F79FA163C56F70091942D /* SummaryViewController.xib */; };
 		D49CA585163BF595000EEF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CA584163BF595000EEF12 /* UIKit.framework */; };
 		D49CA587163BF595000EEF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CA586163BF595000EEF12 /* Foundation.framework */; };
 		D49CA589163BF595000EEF12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CA588163BF595000EEF12 /* CoreGraphics.framework */; };
@@ -24,6 +30,15 @@
 		C17F79E5163C4F3F0091942D /* LibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryViewController.h; sourceTree = "<group>"; };
 		C17F79E6163C4F3F0091942D /* LibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryViewController.m; sourceTree = "<group>"; };
 		C17F79E7163C4F3F0091942D /* LibraryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LibraryViewController.xib; sourceTree = "<group>"; };
+		C17F79EE163C566B0091942D /* BookTOCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTOCViewController.h; sourceTree = "<group>"; };
+		C17F79EF163C566B0091942D /* BookTOCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookTOCViewController.m; sourceTree = "<group>"; };
+		C17F79F0163C566B0091942D /* BookTOCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookTOCViewController.xib; sourceTree = "<group>"; };
+		C17F79F3163C56DD0091942D /* ReadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingViewController.h; sourceTree = "<group>"; };
+		C17F79F4163C56DD0091942D /* ReadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadingViewController.m; sourceTree = "<group>"; };
+		C17F79F5163C56DD0091942D /* ReadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReadingViewController.xib; sourceTree = "<group>"; };
+		C17F79F8163C56F60091942D /* SummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryViewController.h; sourceTree = "<group>"; };
+		C17F79F9163C56F70091942D /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
+		C17F79FA163C56F70091942D /* SummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SummaryViewController.xib; sourceTree = "<group>"; };
 		D49CA580163BF595000EEF12 /* BookBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49CA584163BF595000EEF12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D49CA586163BF595000EEF12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,6 +105,15 @@
 				C17F79E5163C4F3F0091942D /* LibraryViewController.h */,
 				C17F79E6163C4F3F0091942D /* LibraryViewController.m */,
 				C17F79E7163C4F3F0091942D /* LibraryViewController.xib */,
+				C17F79EE163C566B0091942D /* BookTOCViewController.h */,
+				C17F79EF163C566B0091942D /* BookTOCViewController.m */,
+				C17F79F0163C566B0091942D /* BookTOCViewController.xib */,
+				C17F79F3163C56DD0091942D /* ReadingViewController.h */,
+				C17F79F4163C56DD0091942D /* ReadingViewController.m */,
+				C17F79F5163C56DD0091942D /* ReadingViewController.xib */,
+				C17F79F8163C56F60091942D /* SummaryViewController.h */,
+				C17F79F9163C56F70091942D /* SummaryViewController.m */,
+				C17F79FA163C56F70091942D /* SummaryViewController.xib */,
 				D49CA58B163BF595000EEF12 /* Supporting Files */,
 			);
 			path = BookBird;
@@ -166,6 +190,9 @@
 				D49CA599163BF595000EEF12 /* Default@2x.png in Resources */,
 				D49CA59B163BF595000EEF12 /* Default-568h@2x.png in Resources */,
 				C17F79E9163C4F3F0091942D /* LibraryViewController.xib in Resources */,
+				C17F79F2163C566B0091942D /* BookTOCViewController.xib in Resources */,
+				C17F79F7163C56DD0091942D /* ReadingViewController.xib in Resources */,
+				C17F79FC163C56F70091942D /* SummaryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +206,9 @@
 				D49CA591163BF595000EEF12 /* main.m in Sources */,
 				D49CA595163BF595000EEF12 /* HKAppDelegate.m in Sources */,
 				C17F79E8163C4F3F0091942D /* LibraryViewController.m in Sources */,
+				C17F79F1163C566B0091942D /* BookTOCViewController.m in Sources */,
+				C17F79F6163C56DD0091942D /* ReadingViewController.m in Sources */,
+				C17F79FB163C56F70091942D /* SummaryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
