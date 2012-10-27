@@ -20,9 +20,9 @@
     // Override point for customization after application launch.
   UIViewController *viewController1 = [[HKFirstViewController alloc] initWithNibName:@"HKFirstViewController" bundle:nil];
   UIViewController *viewController2 = [[HKSecondViewController alloc] initWithNibName:@"HKSecondViewController" bundle:nil];
-  self.tabBarController = [[UITabBarController alloc] init];
-  self.tabBarController.viewControllers = @[viewController1, viewController2];
-  self.window.rootViewController = self.tabBarController;
+  self.navController = [[UINavigationController alloc] init];
+  self.navController.viewControllers = @[viewController1, viewController2];
+  self.window.rootViewController = self.navController;
     [self.window makeKeyAndVisible];
     return YES;
 }
