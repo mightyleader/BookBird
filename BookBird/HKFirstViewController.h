@@ -16,6 +16,6 @@
 @property (weak, nonatomic) IBOutlet UICollectionView *theCollectionView;
 @property (weak, nonatomic) IBOutlet UIToolbar *navBar;
 
-- (void)fetchBooksWithAPIKey:(NSString*)apiKey;
+- (void)fetchBooksWithAPIKey;
 
 @end
