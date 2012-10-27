@@ -35,4 +35,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)fetchBooksWithAPIKey {
+  NSURL *getBooksListURL = [NSURL URLWithString:[NSString stringWithFormat:@"%@?apikey=%@&limit=100", kBooksList, kFinalAPIKey]];
+  self.requestData = [NSData dataWithContentsOfURL:getBooksListURL];
+  NSJSONSerialization *jsonData = [NSJSONSerialization JSONObjectWithData:self.requestData options:NSJSONWritingPrettyPrinted error:nil];
+  for (id key in (NSDictionary*)jsonData) {
+    if ([key isEqual:@"books"]) {
+      self.books = [(NSDictionary*)jsonData objectForKey:@"books"];
+    }
+  }
+}
+
 @end

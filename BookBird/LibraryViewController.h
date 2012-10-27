@@ -10,4 +10,9 @@
 
 @interface LibraryViewController : UIViewController
 
+@property (nonatomic, strong) NSData *requestData;
+@property (nonatomic, strong) NSMutableArray *books;
+
+- (void)fetchBooksWithAPIKey;
+
 @end
