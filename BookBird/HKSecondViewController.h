@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HKSecondViewController : UIViewController
+@interface HKSecondViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, retain) NSString *chapterID;
+@property (nonatomic, retain) NSMutableArray *people;
+@property (nonatomic, retain) NSMutableArray *places;
+@property (nonatomic, retain) NSMutableArray *feelings;
+@property (nonatomic, retain) NSMutableArray *events;
+
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+@property (weak, nonatomic) IBOutlet UITableView *theTableView;
+@property (weak, nonatomic) IBOutlet UINavigationBar *navBar;
+
 
 @end
