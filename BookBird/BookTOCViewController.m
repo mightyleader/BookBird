@@ -7,6 +7,7 @@
 //
 
 #import "BookTOCViewController.h"
+#import "ReadingViewController.h"
 
 @interface BookTOCViewController ()
 
@@ -33,6 +34,10 @@
     // Do any additional setup after loading the view from its nib.
     self.bookAuthorLabel.text = self.bookAuthorString;
     self.bookTitleLabel.text = self.bookTitleString;
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    [self.tableOfContentsTableView deselectRowAtIndexPath:self.tableOfContentsTableView.indexPathForSelectedRow animated:NO];
 }
 
 - (void)didReceiveMemoryWarning
@@ -77,7 +82,11 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    NSDictionary *tocDict = [self.articleList objectAtIndex:indexPath.row];
+    NSString *urlString = [tocDict objectForKey:@"url"];
+    ReadingViewController *readingVC = [[ReadingViewController alloc] init];
+    readingVC.articleURL = urlString;
+    [self.navigationController pushViewController:readingVC animated:YES];
 }
 
 @end
