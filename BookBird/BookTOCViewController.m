@@ -55,8 +55,7 @@
       self.articleList = [[(NSDictionary*)jsonData objectForKey:@"book"] objectForKey:@"articles"];
     }
   }
-  NSLog(@"%@", self.articleList);
-    [self.tableOfContentsTableView reloadData];
+  [self.tableOfContentsTableView reloadData];
 }
 
 
