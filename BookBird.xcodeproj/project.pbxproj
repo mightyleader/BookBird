@@ -18,6 +18,8 @@
 		C17F7A01163C62790091942D /* 2011-03-08 15.28.39.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F7A00163C62790091942D /* 2011-03-08 15.28.39.jpg */; };
 		C1A2A986163D5781001E6219 /* AddEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A2A984163D5781001E6219 /* AddEntryViewController.m */; };
 		C1A2A987163D5781001E6219 /* AddEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1A2A985163D5781001E6219 /* AddEntryViewController.xib */; };
+		C1A2A996163D7088001E6219 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A2A995163D7088001E6219 /* Twitter.framework */; };
+		C1A2A998163D708F001E6219 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A2A997163D708F001E6219 /* Social.framework */; };
 		D466EBF5163C860500BF7FDA /* 156565942time-machine.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBB7163C860500BF7FDA /* 156565942time-machine.png */; };
 		D466EBF6163C860500BF7FDA /* 626823951humphry-clinker.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBB8163C860500BF7FDA /* 626823951humphry-clinker.png */; };
 		D466EBF7163C860500BF7FDA /* 902722694where-angels-fear-to-tread.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBB9163C860500BF7FDA /* 902722694where-angels-fear-to-tread.png */; };
@@ -117,6 +119,8 @@
 		C1A2A983163D5781001E6219 /* AddEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEntryViewController.h; sourceTree = "<group>"; };
 		C1A2A984163D5781001E6219 /* AddEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEntryViewController.m; sourceTree = "<group>"; };
 		C1A2A985163D5781001E6219 /* AddEntryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEntryViewController.xib; sourceTree = "<group>"; };
+		C1A2A995163D7088001E6219 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		C1A2A997163D708F001E6219 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		D466EBB7163C860500BF7FDA /* 156565942time-machine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "156565942time-machine.png"; sourceTree = "<group>"; };
 		D466EBB8163C860500BF7FDA /* 626823951humphry-clinker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "626823951humphry-clinker.png"; sourceTree = "<group>"; };
 		D466EBB9163C860500BF7FDA /* 902722694where-angels-fear-to-tread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "902722694where-angels-fear-to-tread.png"; sourceTree = "<group>"; };
@@ -209,6 +213,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A2A998163D708F001E6219 /* Social.framework in Frameworks */,
+				C1A2A996163D7088001E6219 /* Twitter.framework in Frameworks */,
 				D49CA585163BF595000EEF12 /* UIKit.framework in Frameworks */,
 				D49CA587163BF595000EEF12 /* Foundation.framework in Frameworks */,
 				D49CA589163BF595000EEF12 /* CoreGraphics.framework in Frameworks */,
@@ -306,6 +312,8 @@
 		D49CA575163BF595000EEF12 = {
 			isa = PBXGroup;
 			children = (
+				C1A2A997163D708F001E6219 /* Social.framework */,
+				C1A2A995163D7088001E6219 /* Twitter.framework */,
 				D466EC33163C8DDF00BF7FDA /* Assets */,
 				D466EBB6163C860500BF7FDA /* covers */,
 				D49CA58A163BF595000EEF12 /* BookBird */,

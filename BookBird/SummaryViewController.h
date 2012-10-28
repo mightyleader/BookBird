@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface SummaryViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextView *tweetTextView;
+@property (weak, nonatomic) IBOutlet UITextView *notesTextView;
+@property (weak, nonatomic) IBOutlet UITextView *originalTextView;
+@property (weak, nonatomic) IBOutlet UILabel *typeLabel;
 
 @end

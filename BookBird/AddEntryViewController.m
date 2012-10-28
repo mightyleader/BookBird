@@ -49,8 +49,17 @@
 
 - (IBAction)addEntryPressed:(id)sender {
     [_entryDict setObject:_notesTextView.text forKey:@"Notes"];
+    [_entryDict setObject:_bookTextTextView.text forKey:@"Selection"];
     //save entry dict to other place so table view has info
     
+    
+    //for text view
+    [self.notesTextView resignFirstResponder];
+    
+    //dismiss
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
 }
 
 @end
