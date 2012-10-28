@@ -55,8 +55,7 @@
       self.articleList = [[(NSDictionary*)jsonData objectForKey:@"book"] objectForKey:@"articles"];
     }
   }
-  NSLog(@"%@", self.articleList);
-    [self.tableOfContentsTableView reloadData];
+  [self.tableOfContentsTableView reloadData];
 }
 
 
@@ -69,6 +68,7 @@
 
     NSDictionary *bookDict = [self.articleList objectAtIndex:indexPath.row];
     cell.textLabel.text = [bookDict objectForKey:@"title"];
+  cell.textLabel.font = [UIFont fontWithName:@"Optima" size:20];
 
     return cell;
 }

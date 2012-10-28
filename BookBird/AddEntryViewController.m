@@ -37,6 +37,7 @@
     self.bookTextTextView.text = pb.string;
     [self.notesTextView becomeFirstResponder];
     _entryDict = [[NSMutableDictionary alloc] init];
+  [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"greenFabric"]]];
 }
 
 - (void)didReceiveMemoryWarning
