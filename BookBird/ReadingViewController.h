@@ -12,5 +12,10 @@
 
 @property (nonatomic, retain) NSString *articleURL;
 @property (nonatomic, retain) NSData *articleData;
+@property (nonatomic, retain) NSMutableDictionary *articleContent;
+@property (nonatomic, retain) NSMutableArray *people;
+@property (nonatomic, retain) NSMutableArray *places;
+@property (nonatomic, retain) NSMutableArray *events;
+@property (nonatomic, retain) NSMutableArray *emotions;
 
 @end
