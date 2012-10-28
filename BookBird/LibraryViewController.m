@@ -31,6 +31,8 @@
     [self.libraryCollectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"Cell"];
     
     [self.libraryCollectionView reloadData];
+  [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"greenFabric"]]];
+  
 }
 
 - (void)didReceiveMemoryWarning

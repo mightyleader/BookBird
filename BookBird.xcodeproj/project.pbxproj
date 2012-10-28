@@ -78,6 +78,14 @@
 		D466EC30163C860500BF7FDA /* tom jones cover image.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBF2163C860500BF7FDA /* tom jones cover image.png */; };
 		D466EC31163C860500BF7FDA /* two-on-a-tower.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBF3163C860500BF7FDA /* two-on-a-tower.png */; };
 		D466EC32163C860500BF7FDA /* war-of-the-worlds.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBF4163C860500BF7FDA /* war-of-the-worlds.png */; };
+		D466EC36163C8DF000BF7FDA /* Decoration.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EC34163C8DF000BF7FDA /* Decoration.png */; };
+		D466EC37163C8DF000BF7FDA /* Decoration@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EC35163C8DF000BF7FDA /* Decoration@2x.png */; };
+		D466EC39163D172C00BF7FDA /* greenFabric.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EC38163D172C00BF7FDA /* greenFabric.png */; };
+		D466EC3B163D184D00BF7FDA /* greenFabric@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EC3A163D184D00BF7FDA /* greenFabric@2x.png */; };
+		D466EC40163D1CDC00BF7FDA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EC3C163D1CDC00BF7FDA /* icon.png */; };
+		D466EC41163D1CDC00BF7FDA /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EC3D163D1CDC00BF7FDA /* icon@2x.png */; };
+		D466EC45163D1CFC00BF7FDA /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EC44163D1CFC00BF7FDA /* Default-Landscape@2x~ipad.png */; };
+		D466EC47163D1D0F00BF7FDA /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EC46163D1D0F00BF7FDA /* Default-Landscape~ipad.png */; };
 		D49CA585163BF595000EEF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CA584163BF595000EEF12 /* UIKit.framework */; };
 		D49CA587163BF595000EEF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CA586163BF595000EEF12 /* Foundation.framework */; };
 		D49CA589163BF595000EEF12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CA588163BF595000EEF12 /* CoreGraphics.framework */; };
@@ -165,6 +173,14 @@
 		D466EBF2163C860500BF7FDA /* tom jones cover image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tom jones cover image.png"; sourceTree = "<group>"; };
 		D466EBF3163C860500BF7FDA /* two-on-a-tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "two-on-a-tower.png"; sourceTree = "<group>"; };
 		D466EBF4163C860500BF7FDA /* war-of-the-worlds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "war-of-the-worlds.png"; sourceTree = "<group>"; };
+		D466EC34163C8DF000BF7FDA /* Decoration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Decoration.png; sourceTree = "<group>"; };
+		D466EC35163C8DF000BF7FDA /* Decoration@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Decoration@2x.png"; sourceTree = "<group>"; };
+		D466EC38163D172C00BF7FDA /* greenFabric.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenFabric.png; sourceTree = "<group>"; };
+		D466EC3A163D184D00BF7FDA /* greenFabric@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenFabric@2x.png"; sourceTree = "<group>"; };
+		D466EC3C163D1CDC00BF7FDA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D466EC3D163D1CDC00BF7FDA /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		D466EC44163D1CFC00BF7FDA /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		D466EC46163D1D0F00BF7FDA /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		D49CA580163BF595000EEF12 /* BookBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49CA584163BF595000EEF12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D49CA586163BF595000EEF12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -264,9 +280,25 @@
 			path = covers;
 			sourceTree = "<group>";
 		};
+		D466EC33163C8DDF00BF7FDA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D466EC44163D1CFC00BF7FDA /* Default-Landscape@2x~ipad.png */,
+				D466EC46163D1D0F00BF7FDA /* Default-Landscape~ipad.png */,
+				D466EC3C163D1CDC00BF7FDA /* icon.png */,
+				D466EC3D163D1CDC00BF7FDA /* icon@2x.png */,
+				D466EC3A163D184D00BF7FDA /* greenFabric@2x.png */,
+				D466EC38163D172C00BF7FDA /* greenFabric.png */,
+				D466EC34163C8DF000BF7FDA /* Decoration.png */,
+				D466EC35163C8DF000BF7FDA /* Decoration@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		D49CA575163BF595000EEF12 = {
 			isa = PBXGroup;
 			children = (
+				D466EC33163C8DDF00BF7FDA /* Assets */,
 				D466EBB6163C860500BF7FDA /* covers */,
 				D49CA58A163BF595000EEF12 /* BookBird */,
 				D49CA583163BF595000EEF12 /* Frameworks */,
@@ -453,6 +485,14 @@
 				D466EC30163C860500BF7FDA /* tom jones cover image.png in Resources */,
 				D466EC31163C860500BF7FDA /* two-on-a-tower.png in Resources */,
 				D466EC32163C860500BF7FDA /* war-of-the-worlds.png in Resources */,
+				D466EC36163C8DF000BF7FDA /* Decoration.png in Resources */,
+				D466EC37163C8DF000BF7FDA /* Decoration@2x.png in Resources */,
+				D466EC39163D172C00BF7FDA /* greenFabric.png in Resources */,
+				D466EC3B163D184D00BF7FDA /* greenFabric@2x.png in Resources */,
+				D466EC40163D1CDC00BF7FDA /* icon.png in Resources */,
+				D466EC41163D1CDC00BF7FDA /* icon@2x.png in Resources */,
+				D466EC45163D1CFC00BF7FDA /* Default-Landscape@2x~ipad.png in Resources */,
+				D466EC47163D1D0F00BF7FDA /* Default-Landscape~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
