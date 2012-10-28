@@ -42,7 +42,7 @@
   self.articleData = [NSData dataWithContentsOfURL:getArticleListURL];
   NSJSONSerialization *jsonData = [NSJSONSerialization JSONObjectWithData:self.articleData options:NSJSONWritingPrettyPrinted error:nil];
   for (id key in (NSDictionary*)jsonData) {
-    if ([key isEqual:@"books"]) {
+    if ([key isEqual:@"book"]) {
       self.articleList = [[(NSDictionary*)jsonData objectForKey:@"book"] objectForKey:@"articles"];
     }
   }
