@@ -288,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				D466EC44163D1CFC00BF7FDA /* Default-Landscape@2x~ipad.png */,
+				D466EC46163D1D0F00BF7FDA /* Default-Landscape~ipad.png */,
 				D466EC3C163D1CDC00BF7FDA /* icon.png */,
 				D466EC3D163D1CDC00BF7FDA /* icon@2x.png */,
 				D466EC3E163D1CDC00BF7FDA /* splash.png */,
@@ -303,7 +304,6 @@
 		D49CA575163BF595000EEF12 = {
 			isa = PBXGroup;
 			children = (
-				D466EC46163D1D0F00BF7FDA /* Default-Landscape~ipad.png */,
 				D466EC33163C8DDF00BF7FDA /* Assets */,
 				D466EBB6163C860500BF7FDA /* covers */,
 				D49CA58A163BF595000EEF12 /* BookBird */,
