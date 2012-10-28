@@ -17,5 +17,7 @@
 @property (nonatomic, retain) NSMutableArray *places;
 @property (nonatomic, retain) NSMutableArray *events;
 @property (nonatomic, retain) NSMutableArray *emotions;
+@property (weak, nonatomic) IBOutlet UIWebView *readingContentWebView;
+@property (weak, nonatomic) IBOutlet UITableView *elementsTableView;
 
 @end
