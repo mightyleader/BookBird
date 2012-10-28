@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ReadingViewController.h"
 
 @interface AddEntryViewController : UIViewController <UITextViewDelegate>
-@property (nonatomic, strong) id delegate;
+@property (nonatomic, strong) ReadingViewController * readingVC;
 
 @property (weak, nonatomic) IBOutlet UITextView *notesTextView;
 @property (weak, nonatomic) IBOutlet UITextView *bookTextTextView;
