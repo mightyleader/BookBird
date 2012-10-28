@@ -27,6 +27,7 @@
 {
     [super viewDidLoad];
     [self fetchBooksWithAPIKey];
+    [self.libraryCollectionView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"Decoration.png"]]];
     // Do any additional setup after loading the view from its nib.
     [self.libraryCollectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"Cell"];
     
@@ -59,6 +60,7 @@
     [bookCoverImageView setFrame:CGRectMake(0, 0, 200, 311)];
     [cell.contentView addSubview:bookCoverImageView];
     
+    //cell.backgroundView.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.5];
     
 //    NSString *bookTitle = [bookDataDict objectForKey:@"title"];
 //    
@@ -82,7 +84,7 @@
 //    
 //    [cell.contentView addSubview:bookTitleLabel];
     
-    cell.backgroundColor = [UIColor blackColor];
+    //cell.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.3];
     return cell;
 }
 

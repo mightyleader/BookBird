@@ -36,13 +36,12 @@
 				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">292</int>
 				<array class="NSMutableArray" key="NSSubviews">
-					<object class="IBUICollectionView" id="660890602">
+					<object class="IBUICollectionView" id="369450335">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">274</int>
 						<string key="NSFrameSize">{1024, 748}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">1</int>
@@ -53,11 +52,11 @@
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<float key="IBUIMinimumZoomScale">0.0</float>
 						<float key="IBUIMaximumZoomScale">0.0</float>
-						<object class="IBUICollectionViewFlowLayout" key="IBUICollectionViewLayout" id="415954707">
-							<reference key="IBUICollectionView" ref="660890602"/>
-							<string key="IBUIItemSize">{200, 270}</string>
-							<float key="IBUIMinimumLineSpacing">150</float>
-							<double key="IBUISectionInset.top">100</double>
+						<object class="IBUICollectionViewFlowLayout" key="IBUICollectionViewLayout" id="784390121">
+							<reference key="IBUICollectionView" ref="369450335"/>
+							<string key="IBUIItemSize">{200, 311}</string>
+							<float key="IBUIMinimumLineSpacing">113</float>
+							<double key="IBUISectionInset.top">70</double>
 							<double key="IBUISectionInset.bottom">100</double>
 							<double key="IBUISectionInset.left">80</double>
 							<double key="IBUISectionInset.right">80</double>
@@ -68,7 +67,7 @@
 				<string key="NSFrame">{{0, 20}, {1024, 748}}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView" ref="660890602"/>
+				<reference key="NSNextKeyView" ref="369450335"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
 					<bytes key="NSRGB">MCAwIDAuNTAxOTYwODE0AA</bytes>
@@ -98,14 +97,14 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">libraryCollectionView</string>
 						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="660890602"/>
+						<reference key="destination" ref="369450335"/>
 					</object>
 					<int key="connectionID">18</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">dataSource</string>
-						<reference key="source" ref="660890602"/>
+						<reference key="source" ref="369450335"/>
 						<reference key="destination" ref="841351856"/>
 					</object>
 					<int key="connectionID">16</int>
@@ -113,7 +112,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">delegate</string>
-						<reference key="source" ref="660890602"/>
+						<reference key="source" ref="369450335"/>
 						<reference key="destination" ref="841351856"/>
 					</object>
 					<int key="connectionID">17</int>
@@ -142,22 +141,22 @@
 						<int key="objectID">2</int>
 						<reference key="object" ref="766721923"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="660890602"/>
+							<reference ref="369450335"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">4</int>
-						<reference key="object" ref="660890602"/>
+						<reference key="object" ref="369450335"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="415954707"/>
+							<reference ref="784390121"/>
 						</array>
 						<reference key="parent" ref="766721923"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">20</int>
-						<reference key="object" ref="415954707"/>
-						<reference key="parent" ref="660890602"/>
+						<reference key="object" ref="784390121"/>
+						<reference key="parent" ref="369450335"/>
 					</object>
 				</array>
 			</object>
