@@ -14,4 +14,6 @@
 @property (nonatomic, retain) NSMutableArray *articleList;
 @property (nonatomic, retain) NSData *articleData;
 
+- (void)fetchArticlesWithAPIKey;
+
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "LibraryViewController.h"
+#import "BookTOCViewController.h"
 
 @interface LibraryViewController ()
 
@@ -101,6 +102,10 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     //launch book detail view where user can select chapter/page number
+    BookTOCViewController *bookTOCVC = [[BookTOCViewController alloc] init];
+    bookTOCVC.bookURL = [[_books objectAtIndex:indexPath.row] objectForKey:@"url"];
+    [bookTOCVC fetchArticlesWithAPIKey];
+    [self.navigationController pushViewController:bookTOCVC animated:YES];
 }
 
 
