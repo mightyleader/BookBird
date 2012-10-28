@@ -7,6 +7,7 @@
 //
 
 #import "ReadingViewController.h"
+#import "AddEntryViewController.h"
 
 @interface ReadingViewController ()
 
@@ -28,12 +29,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+  UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Add"
+                                                                  style:UIBarButtonSystemItemDone target:self  action:@selector(addEntryPressed:)];
+  self.navigationItem.rightBarButtonItem = rightButton;
   [self fetchArticleWithAPIKey];
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-   
+- (void)addEntryPressed:(id)sender {
+  AddEntryViewController *addEntryVC = [[AddEntryViewController alloc] init];
+  [addEntryVC setTitle:@"Add new entry"];
+  [self.navigationController pushViewController:addEntryVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning
@@ -52,6 +57,41 @@
   
   NSString *webContent = [self.articleContent objectForKey:@"content"] ;
   [self.readingContentWebView loadHTMLString:webContent baseURL:nil];
+  
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+  
+}
+
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+  
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+  UIMenuController *menuController = [UIMenuController sharedMenuController];
+  UITouch *theTouch = [touches anyObject];
+  if ([theTouch tapCount] == 1 && [menuController isMenuVisible]) {
+    [self becomeFirstResponder];
+    UIMenuItem *menuItem = [[UIMenuItem alloc] initWithTitle:@"Add..." action:@selector(viewDidAppear:)];
+    
+    [menuController setTargetRect:self.readingContentWebView.frame inView:self.readingContentWebView];
+    menuController.arrowDirection = UIMenuControllerArrowLeft;
+    menuController.menuItems = [NSArray arrayWithObject:menuItem];
+    [menuController setMenuVisible:YES animated:YES];
+  }
+
+  /*
+   If this is a single tap, and the menu is visible, hide it.
+   */
+  
+  if ([theTouch tapCount] == 1  && [menuController isMenuVisible]) {
+    [menuController setMenuVisible:NO animated:YES];
+  }
+}
+
+
+- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event {
   
 }
 
