@@ -32,7 +32,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    UIPasteboard *pb = [UIPasteboard generalPasteboard];
+    
+    self.bookTextTextView.text = pb.string;
     [self.notesTextView becomeFirstResponder];
+    _entryDict = [[NSMutableDictionary alloc] init];
   [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"greenFabric"]]];
 }
 
@@ -43,24 +47,23 @@
 }
 
 - (IBAction)buttonPressed:(id)sender {
-    UIButton *buttonPressed = (UIButton*)sender;
-    [_entryDict setObject:buttonPressed.titleLabel.text forKey:@"Type"];
-    [buttonPressed setSelected:YES]; //button should remain selected
+    UIButton *button = (UIButton*)sender;
+    [_entryDict setObject:button.titleLabel.text forKey:@"Type"];
+    [button setSelected:YES]; //button should remain selected
 }
 
 - (IBAction)addEntryPressed:(id)sender {
     [_entryDict setObject:_notesTextView.text forKey:@"Notes"];
     [_entryDict setObject:_bookTextTextView.text forKey:@"Selection"];
     //save entry dict to other place so table view has info
-    
+    [_readingVC.tableDataSource addObject:_entryDict];
+    [_readingVC.elementsTableView reloadData];
     
     //for text view
     [self.notesTextView resignFirstResponder];
     
     //dismiss
-    [self dismissViewControllerAnimated:YES completion:^{
-        
-    }];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 @end
