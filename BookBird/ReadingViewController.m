@@ -29,9 +29,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-  NSURL *url  = [NSURL URLWithString:@"text.html"];
-  NSURLRequest *request = [NSURLRequest requestWithURL:url];
-  [self.readingContentWebView loadRequest:request];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+   
 }
 
 - (void)didReceiveMemoryWarning
@@ -40,13 +41,50 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)fetchArticlesWithAPIKey {
+- (void)fetchArticleWithAPIKey {
 
   NSString *adjustedURLString = [self.articleURL stringByReplacingOccurrencesOfString:@"?" withString:@"?content-fmt=html&"];
   NSURL *getArticleURL = [NSURL URLWithString:adjustedURLString];
   self.articleData = [NSData dataWithContentsOfURL:getArticleURL];
   NSJSONSerialization *jsonData = [NSJSONSerialization JSONObjectWithData:self.articleData options:NSJSONWritingPrettyPrinted error:nil];
   self.articleContent = [(NSDictionary*)jsonData objectForKey:@"article"];
+  
+  NSString *webContent = [[self.articleContent objectForKey:@"book"] objectForKey:@"content"];
+  [self.readingContentWebView loadHTMLString:webContent baseURL:nil];
+  
+}
+
+
+#pragma mark TABLEVIEW THINGS
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+  UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+  if (cell == nil) {
+    cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+  }
+  
+  //self.articleContent = [self.articleList objectAtIndex:indexPath.row];
+  cell.textLabel.text = [self.articleContent objectForKey:@"title"];
+  
+  return cell;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+  return 2;
+}
+
+
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+  return 45;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+//  NSDictionary *tocDict = [self.articleList objectAtIndex:indexPath.row];
+//  NSString *urlString = [tocDict objectForKey:@"url"];
+//  ReadingViewController *readingVC = [[ReadingViewController alloc] init];
+//  readingVC.articleURL = urlString;
+//  [self.navigationController pushViewController:readingVC animated:YES];
 }
 
 @end

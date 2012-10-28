@@ -20,4 +20,6 @@
 @property (weak, nonatomic) IBOutlet UIWebView *readingContentWebView;
 @property (weak, nonatomic) IBOutlet UITableView *elementsTableView;
 
+- (void)fetchArticleWithAPIKey;
+
 @end
