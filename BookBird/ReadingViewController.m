@@ -29,6 +29,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+  [self fetchArticleWithAPIKey];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -49,7 +50,7 @@
   NSJSONSerialization *jsonData = [NSJSONSerialization JSONObjectWithData:self.articleData options:NSJSONWritingPrettyPrinted error:nil];
   self.articleContent = [(NSDictionary*)jsonData objectForKey:@"article"];
   
-  NSString *webContent = [[self.articleContent objectForKey:@"book"] objectForKey:@"content"];
+  NSString *webContent = [self.articleContent objectForKey:@"content"] ;
   [self.readingContentWebView loadHTMLString:webContent baseURL:nil];
   
 }
