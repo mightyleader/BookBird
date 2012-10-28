@@ -14,6 +14,8 @@
 
 @implementation ReadingViewController
 
+@synthesize articleURL, articleData, articleContent, people, places, events, emotions;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -33,6 +35,15 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)fetchArticlesWithAPIKey {
+
+  NSString *adjustedURLString = [self.articleURL stringByReplacingOccurrencesOfString:@"?" withString:@"?content-fmt=html&"];
+  NSURL *getArticleURL = [NSURL URLWithString:adjustedURLString];
+  self.articleData = [NSData dataWithContentsOfURL:getArticleURL];
+  NSJSONSerialization *jsonData = [NSJSONSerialization JSONObjectWithData:self.articleData options:NSJSONWritingPrettyPrinted error:nil];
+  self.articleContent = [(NSDictionary*)jsonData objectForKey:@"article"];
 }
 
 @end

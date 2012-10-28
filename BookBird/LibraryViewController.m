@@ -106,8 +106,8 @@
     //launch book detail view where user can select chapter/page number
     BookTOCViewController *bookTOCVC = [[BookTOCViewController alloc] init];
     bookTOCVC.bookURL = [[_books objectAtIndex:indexPath.row] objectForKey:@"url"];
-    [bookTOCVC.bookAuthorLabel setText: [[[[_books objectAtIndex:indexPath.row] objectForKey:@"authors"] objectAtIndex:0] objectForKey:@"full_name"]];
-    [bookTOCVC.bookTitleLabel setText: [[_books objectAtIndex:indexPath.row] objectForKey:@"title"]];
+    [bookTOCVC setBookAuthorString:[[[[_books objectAtIndex:indexPath.row] objectForKey:@"authors"] objectAtIndex:0] objectForKey:@"full_name"]];
+    [bookTOCVC setBookTitleString:[[_books objectAtIndex:indexPath.row] objectForKey:@"title"]];
     [bookTOCVC fetchArticlesWithAPIKey];
     [self.navigationController pushViewController:bookTOCVC animated:YES];
 }

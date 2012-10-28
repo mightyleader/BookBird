@@ -22,6 +22,7 @@
     if (self) {
         // Custom initialization
         self.navigationItem.title = @"Table of Contents";
+
     }
     return self;
 }
@@ -30,6 +31,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.bookAuthorLabel.text = self.bookAuthorString;
+    self.bookTitleLabel.text = self.bookTitleString;
 }
 
 - (void)didReceiveMemoryWarning

@@ -17,6 +17,9 @@
 @property (weak, nonatomic) IBOutlet UILabel *bookAuthorLabel;
 @property (weak, nonatomic) IBOutlet UITableView *tableOfContentsTableView;
 
+@property (nonatomic, strong) NSString *bookTitleString;
+@property (nonatomic, strong) NSString *bookAuthorString;
+
 - (void)fetchArticlesWithAPIKey;
 
 @end
