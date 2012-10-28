@@ -13,6 +13,13 @@
 @property (weak, nonatomic) IBOutlet UITextView *notesTextView;
 @property (weak, nonatomic) IBOutlet UITextView *originalTextView;
 @property (weak, nonatomic) IBOutlet UILabel *typeLabel;
+
+@property (weak, nonatomic)  NSString *tweetText;
+@property (weak, nonatomic)  NSString *notesText;
+@property (weak, nonatomic)  NSString *originalText;
+@property (weak, nonatomic)  NSString *typeText;
+
+
 - (IBAction)tweetPressed:(id)sender;
 
 @end

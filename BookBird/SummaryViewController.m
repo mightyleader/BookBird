@@ -19,6 +19,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+
     }
     return self;
 }
@@ -27,6 +28,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [_tweetTextView becomeFirstResponder];
+    _tweetTextView.text = _tweetText;
+    _notesTextView.text = _notesText;
+    _typeLabel.text = _typeText;
+    _originalTextView.text = _originalText;
 }
 
 - (void)didReceiveMemoryWarning
@@ -36,5 +42,7 @@
 }
 
 - (IBAction)tweetPressed:(id)sender {
+    [_tweetTextView resignFirstResponder];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 @end

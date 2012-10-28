@@ -8,6 +8,7 @@
 
 #import "ReadingViewController.h"
 #import "AddEntryViewController.h"
+#import "SummaryViewController.h"
 
 @interface ReadingViewController ()
 
@@ -93,11 +94,12 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-//  NSDictionary *tocDict = [self.articleList objectAtIndex:indexPath.row];
-//  NSString *urlString = [tocDict objectForKey:@"url"];
-//  ReadingViewController *readingVC = [[ReadingViewController alloc] init];
-//  readingVC.articleURL = urlString;
-//  [self.navigationController pushViewController:readingVC animated:YES];
+  NSDictionary *tocDict = [self.tableDataSource objectAtIndex:indexPath.row];
+  SummaryViewController *summaryVC = [[SummaryViewController alloc] init];
+    summaryVC.typeText = [tocDict objectForKey:@"Type"];
+    summaryVC.notesText = [tocDict objectForKey:@"Notes"];
+    summaryVC.originalText = [tocDict objectForKey:@"Selection"];
+  [self.navigationController pushViewController:summaryVC animated:YES];
 }
 
 @end
