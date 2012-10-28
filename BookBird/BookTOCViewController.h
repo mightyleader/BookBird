@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BookTOCViewController : UIViewController
+@interface BookTOCViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, retain) NSString *bookURL;
 @property (nonatomic, retain) NSMutableArray *articleList;
 @property (nonatomic, retain) NSData *articleData;
+@property (weak, nonatomic) IBOutlet UILabel *bookTitleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *bookAuthorLabel;
+@property (weak, nonatomic) IBOutlet UITableView *tableOfContentsTableView;
 
 - (void)fetchArticlesWithAPIKey;
 
