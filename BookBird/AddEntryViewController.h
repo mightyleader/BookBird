@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AddEntryViewController : UIViewController
+@interface AddEntryViewController : UIViewController <UITextViewDelegate>
+@property (nonatomic, strong) id delegate;
+
 @property (weak, nonatomic) IBOutlet UITextView *notesTextView;
 @property (weak, nonatomic) IBOutlet UITextView *bookTextTextView;
 
+@property (nonatomic, strong) NSMutableDictionary *entryDict;
+
 - (IBAction)buttonPressed:(id)sender;
+- (IBAction)addEntryPressed:(id)sender;
+
 @end
