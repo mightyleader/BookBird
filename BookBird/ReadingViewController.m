@@ -14,6 +14,8 @@
 
 @implementation ReadingViewController
 
+@synthesize articleURL, articleData;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -33,6 +35,18 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)fetchArticlesWithAPIKey {
+  NSURL *getArticleURL = [NSURL URLWithString:self.articleURL];
+  self.articleData = [NSData dataWithContentsOfURL:getArticleURL];
+  NSJSONSerialization *jsonData = [NSJSONSerialization JSONObjectWithData:self.articleData options:NSJSONWritingPrettyPrinted error:nil];
+  for (id key in (NSDictionary*)jsonData) {
+    if ([key isEqual:@"books"]) {
+      //self.articleList = [[(NSDictionary*)jsonData objectForKey:@"book"] objectForKey:@"articles"];
+    }
+  }
+  //NSLog(@"%@", self.articleList);
 }
 
 @end

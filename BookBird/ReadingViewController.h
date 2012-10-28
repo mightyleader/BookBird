@@ -10,4 +10,7 @@
 
 @interface ReadingViewController : UIViewController
 
+@property (nonatomic, retain) NSString *articleURL;
+@property (nonatomic, retain) NSData *articleData;
+
 @end
