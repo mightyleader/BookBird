@@ -20,6 +20,7 @@
     UINavigationController *masterNavigationController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
     self.window.rootViewController = masterNavigationController;
     [self.window makeKeyAndVisible];
+    [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:0.154 green:0.223 blue:0.001 alpha:1.000]];
     return YES;
 }
 
