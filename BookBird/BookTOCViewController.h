@@ -10,4 +10,8 @@
 
 @interface BookTOCViewController : UIViewController
 
+@property (nonatomic, retain) NSString *bookURL;
+@property (nonatomic, retain) NSMutableArray *articleList;
+@property (nonatomic, retain) NSData *articleData;
+
 @end
