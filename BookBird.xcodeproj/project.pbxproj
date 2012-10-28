@@ -86,6 +86,7 @@
 		D466EC41163D1CDC00BF7FDA /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EC3D163D1CDC00BF7FDA /* icon@2x.png */; };
 		D466EC45163D1CFC00BF7FDA /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EC44163D1CFC00BF7FDA /* Default-Landscape@2x~ipad.png */; };
 		D466EC47163D1D0F00BF7FDA /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EC46163D1D0F00BF7FDA /* Default-Landscape~ipad.png */; };
+		D466EC49163D42AB00BF7FDA /* text.html in Resources */ = {isa = PBXBuildFile; fileRef = D466EC48163D42AB00BF7FDA /* text.html */; };
 		D49CA585163BF595000EEF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CA584163BF595000EEF12 /* UIKit.framework */; };
 		D49CA587163BF595000EEF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CA586163BF595000EEF12 /* Foundation.framework */; };
 		D49CA589163BF595000EEF12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49CA588163BF595000EEF12 /* CoreGraphics.framework */; };
@@ -181,6 +182,7 @@
 		D466EC3D163D1CDC00BF7FDA /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		D466EC44163D1CFC00BF7FDA /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 		D466EC46163D1D0F00BF7FDA /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		D466EC48163D42AB00BF7FDA /* text.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = text.html; sourceTree = "<group>"; };
 		D49CA580163BF595000EEF12 /* BookBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49CA584163BF595000EEF12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D49CA586163BF595000EEF12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -283,6 +285,7 @@
 		D466EC33163C8DDF00BF7FDA /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				D466EC48163D42AB00BF7FDA /* text.html */,
 				D466EC44163D1CFC00BF7FDA /* Default-Landscape@2x~ipad.png */,
 				D466EC46163D1D0F00BF7FDA /* Default-Landscape~ipad.png */,
 				D466EC3C163D1CDC00BF7FDA /* icon.png */,
@@ -493,6 +496,7 @@
 				D466EC41163D1CDC00BF7FDA /* icon@2x.png in Resources */,
 				D466EC45163D1CFC00BF7FDA /* Default-Landscape@2x~ipad.png in Resources */,
 				D466EC47163D1D0F00BF7FDA /* Default-Landscape~ipad.png in Resources */,
+				D466EC49163D42AB00BF7FDA /* text.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
