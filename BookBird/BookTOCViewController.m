@@ -69,6 +69,9 @@
     NSDictionary *bookDict = [self.articleList objectAtIndex:indexPath.row];
     cell.textLabel.text = [bookDict objectForKey:@"title"];
   cell.textLabel.font = [UIFont fontWithName:@"Optima" size:20];
+  UIView *selectionColor = [[UIView alloc] init];
+  selectionColor.backgroundColor = [UIColor colorWithRed:0.154 green:0.223 blue:0.001 alpha:1.000];
+  cell.selectedBackgroundView = selectionColor;
 
     return cell;
 }
