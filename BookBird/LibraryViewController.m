@@ -29,6 +29,7 @@
     [self fetchBooksWithAPIKey];
     // Do any additional setup after loading the view from its nib.
     [self.libraryCollectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"Cell"];
+    
     [self.libraryCollectionView reloadData];
 }
 
@@ -47,10 +48,16 @@
 // The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
-    UIImageView *bookCoverImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"2011-03-08 15.28.39.jpg"]];
+        NSDictionary *bookDataDict = [_books objectAtIndex:indexPath.row];
+    NSString *coverImageString = [bookDataDict objectForKey:@"isbn"];
+    if (![UIImage imageNamed:coverImageString]) {
+        coverImageString = @"2011-03-08 15.28.39.jpg";
+    }
+    UIImageView *bookCoverImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:coverImageString]];
+    [bookCoverImageView setFrame:CGRectMake(0, 0, 200, 311)];
     [cell.contentView addSubview:bookCoverImageView];
     
-//    NSDictionary *bookDataDict = [_books objectAtIndex:indexPath.row];
+    
 //    NSString *bookTitle = [bookDataDict objectForKey:@"title"];
 //    
 //    UILabel *bookTitleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, cell.contentView.bounds.size.height-40, cell.contentView.bounds.size.width, 40)];
