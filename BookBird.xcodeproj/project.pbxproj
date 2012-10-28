@@ -16,6 +16,8 @@
 		C17F79FB163C56F70091942D /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17F79F9163C56F70091942D /* SummaryViewController.m */; };
 		C17F79FC163C56F70091942D /* SummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17F79FA163C56F70091942D /* SummaryViewController.xib */; };
 		C17F7A01163C62790091942D /* 2011-03-08 15.28.39.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C17F7A00163C62790091942D /* 2011-03-08 15.28.39.jpg */; };
+		C1A2A986163D5781001E6219 /* AddEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A2A984163D5781001E6219 /* AddEntryViewController.m */; };
+		C1A2A987163D5781001E6219 /* AddEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1A2A985163D5781001E6219 /* AddEntryViewController.xib */; };
 		D466EBF5163C860500BF7FDA /* 156565942time-machine.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBB7163C860500BF7FDA /* 156565942time-machine.png */; };
 		D466EBF6163C860500BF7FDA /* 626823951humphry-clinker.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBB8163C860500BF7FDA /* 626823951humphry-clinker.png */; };
 		D466EBF7163C860500BF7FDA /* 902722694where-angels-fear-to-tread.png in Resources */ = {isa = PBXBuildFile; fileRef = D466EBB9163C860500BF7FDA /* 902722694where-angels-fear-to-tread.png */; };
@@ -112,6 +114,9 @@
 		C17F79F9163C56F70091942D /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
 		C17F79FA163C56F70091942D /* SummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SummaryViewController.xib; sourceTree = "<group>"; };
 		C17F7A00163C62790091942D /* 2011-03-08 15.28.39.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2011-03-08 15.28.39.jpg"; sourceTree = "<group>"; };
+		C1A2A983163D5781001E6219 /* AddEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEntryViewController.h; sourceTree = "<group>"; };
+		C1A2A984163D5781001E6219 /* AddEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEntryViewController.m; sourceTree = "<group>"; };
+		C1A2A985163D5781001E6219 /* AddEntryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEntryViewController.xib; sourceTree = "<group>"; };
 		D466EBB7163C860500BF7FDA /* 156565942time-machine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "156565942time-machine.png"; sourceTree = "<group>"; };
 		D466EBB8163C860500BF7FDA /* 626823951humphry-clinker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "626823951humphry-clinker.png"; sourceTree = "<group>"; };
 		D466EBB9163C860500BF7FDA /* 902722694where-angels-fear-to-tread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "902722694where-angels-fear-to-tread.png"; sourceTree = "<group>"; };
@@ -343,6 +348,9 @@
 				C17F79F3163C56DD0091942D /* ReadingViewController.h */,
 				C17F79F4163C56DD0091942D /* ReadingViewController.m */,
 				C17F79F5163C56DD0091942D /* ReadingViewController.xib */,
+				C1A2A983163D5781001E6219 /* AddEntryViewController.h */,
+				C1A2A984163D5781001E6219 /* AddEntryViewController.m */,
+				C1A2A985163D5781001E6219 /* AddEntryViewController.xib */,
 				C17F79F8163C56F60091942D /* SummaryViewController.h */,
 				C17F79F9163C56F70091942D /* SummaryViewController.m */,
 				C17F79FA163C56F70091942D /* SummaryViewController.xib */,
@@ -497,6 +505,7 @@
 				D466EC45163D1CFC00BF7FDA /* Default-Landscape@2x~ipad.png in Resources */,
 				D466EC47163D1D0F00BF7FDA /* Default-Landscape~ipad.png in Resources */,
 				D466EC49163D42AB00BF7FDA /* text.html in Resources */,
+				C1A2A987163D5781001E6219 /* AddEntryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +522,7 @@
 				C17F79F1163C566B0091942D /* BookTOCViewController.m in Sources */,
 				C17F79F6163C56DD0091942D /* ReadingViewController.m in Sources */,
 				C17F79FB163C56F70091942D /* SummaryViewController.m in Sources */,
+				C1A2A986163D5781001E6219 /* AddEntryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
