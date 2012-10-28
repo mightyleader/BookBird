@@ -14,7 +14,7 @@
 
 @implementation ReadingViewController
 
-@synthesize articleURL, articleData, articleContent, people, places, events, emotions;
+@synthesize articleURL, articleData, articleContent, people, places, events, emotions, readingContentWebView, elementsTableView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,6 +29,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+  NSURL *url  = [NSURL URLWithString:@"text.html"];
+  NSURLRequest *request = [NSURLRequest requestWithURL:url];
+  [self.readingContentWebView loadRequest:request];
 }
 
 - (void)didReceiveMemoryWarning
