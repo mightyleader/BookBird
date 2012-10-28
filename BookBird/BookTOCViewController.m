@@ -68,6 +68,7 @@
 
     NSDictionary *bookDict = [self.articleList objectAtIndex:indexPath.row];
     cell.textLabel.text = [bookDict objectForKey:@"title"];
+  cell.textLabel.font = [UIFont fontWithName:@"Optima" size:20];
 
     return cell;
 }
